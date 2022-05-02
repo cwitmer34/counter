@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(7, 7, 15);
+  color: rgb(80, 179, 179);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1   {
+  font-weight: 500;
+  text-align: center;
+  font-size: 5em;
+}
+
+h2 {
+  margin-top: -1em;
+  font-weight: 300;
+  text-align: center;
+  font-size: 3em;
+}
+
+span {
+  color: white;
+  font-size: 7.5em;
+}
+
+button {
+  font-size: 1.5em;
+  padding: 10px 20px 10px 20px;
+  color: rgb(80, 179, 179);
+  border: 2px solid rgb(80, 179, 179);
+  border-radius: 50px;
+  font-weight: 100;
+  background-color: transparent;
+  margin: 1em 1em 1em 1em;
+  transition: all .25s ease-in-out;
+}
+
+button:hover {
+  color: rgb(7, 7, 15);
+  background-color: rgb(80, 179, 179);
+}
+
+.container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+a {
+  color: inherit;
+}
+
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
